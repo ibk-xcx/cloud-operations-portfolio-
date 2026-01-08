@@ -33,7 +33,7 @@ An EC2 instance became unreachable due to inbound security group rules being rem
 - Inspected security group inbound rules and identified missing SSH access  
 
 
-![Security Group Missing SSH Rule](images/ssh-timeout.png)
+![Security Group Missing SSH Rule](images/sg-after-deletion.png)
 
 ---
 
