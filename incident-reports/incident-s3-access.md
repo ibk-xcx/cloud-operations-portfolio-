@@ -26,7 +26,6 @@ Bucket policy denied `s3:GetObject` permissions for all principals.
 ## 4. Resolution
 - Updated bucket policy to allow `s3:GetObject` for the intended users/principals.  
 - Verified access was restored to public assets.  
-- *(take screenshot of updated bucket policy and successful access)*
 
 ---
 
