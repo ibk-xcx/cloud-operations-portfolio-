@@ -45,7 +45,7 @@ The IAM role attached to the EC2 instance did not include policies allowing S3 a
 ### Access Verification
 - Verified access restoration via AWS CLI
 
-![S3 Access Restored](images/s3-access-restored.png)
+![S3 Access Restored](images/s3-restored.png)
 
 ---
 
