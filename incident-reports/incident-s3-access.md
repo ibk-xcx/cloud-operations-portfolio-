@@ -19,13 +19,14 @@ Users were unable to access files stored in an S3 bucket due to incorrect bucket
 ---
 
 ## 3. Root Cause
-Bucket policy denied `s3:GetObject` permissions for all principals.
+The IAM role accessing the S3 bucket did not have the required permissions at the time of the incident. Required S3 permissions were missing, resulting in `AccessDenied` errors when attempting to retrieve objects.
+
 
 ---
 
 ## 4. Resolution
-- Updated bucket policy to allow `s3:GetObject` for the intended users/principals.  
-- Verified access was restored to public assets.  
+- Attached the `AmazonS3FullAccess` policy to the affected IAM role
+- Verified restored access to S3 objects via AWS CLI and console  
 
 ---
 
