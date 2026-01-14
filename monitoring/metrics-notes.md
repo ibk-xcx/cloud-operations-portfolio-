@@ -4,7 +4,9 @@
 - CPUUtilization  
 - StatusCheckFailed  
 - NetworkIn/Out  
-- DiskRead/Write  
+- DiskRead/Write
+- Disk space usage (EBS volume capacity)
+- Memory usage (via CloudWatch agent)  
 
 ## S3
 - Bucket size  
@@ -20,4 +22,3 @@
 - Detects incidents faster  
 - Reduces downtime  
 - Improves SLA performance  
-
