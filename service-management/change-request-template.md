@@ -3,7 +3,7 @@
 **Change ID:** CR-2026-001  
 **Requestor:** Cloud Operations (Lab Simulation)  
 **Description:**  
-Implement CloudWatch alarm for EC2 instance "the-divide" to trigger notification when CPU utilization exceeds 70%. Additionally, resize instance from t2.micro to t2.small to improve performance stability.
+Implement CloudWatch alarm for EC2 instance "the-divide" to trigger notification when CPU utilization exceeds 70%. Additionally, resize instance from t3.micro to t3.small to improve performance stability.
 
 **Risk Level:** Medium  
 
